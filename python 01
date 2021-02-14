@@ -13,3 +13,45 @@ type(age)
 x = 5
 print (x)
 print(type(x))
+
+firstname = 'Linda'
+print(type(firstname)) ##'' returns as a string
+
+print(firstname, 'is', age, 'years old')
+
+print(x, 'is a float')
+
+?print #use ? to check function
+
+age = 100
+age = age + 3
+age +=3
+print(age)
+
+element = 'Helium'
+print(element)
+
+print(element[1]) #read as a string; second letter in the string
+print(element[0:3])
+
+name_1 = 'Alex'
+print(name_1)
+
+del name_1  #delete a variable
+
+print(name_1) #the variable name_1 should be deleted
+
+print(type(52))  #integer
+print(type(52.0))  #float
+print(type('52')) #string
+
+print(firstname+'Smith')
+print(firstname, 'Smith')
+print(firstname*5)
+
+print(str(1)+'a')  #need to make 2 variables in the same class; make "1" into a string
+
+print(1+int('2'))
+
+
+
